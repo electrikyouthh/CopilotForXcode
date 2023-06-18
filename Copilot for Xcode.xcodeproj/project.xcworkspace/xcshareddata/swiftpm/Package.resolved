@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ChimeHQ/JSONRPC",
       "state" : {
-        "revision" : "5da978702aece6ba5c7879b0d253c180d61e4ef3",
-        "version" : "0.6.0"
+        "revision" : "aa785ad404bdcf7ec692908b3905dd4c87e87141",
+        "version" : "0.7.1"
       }
     },
     {
@@ -59,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ChimeHQ/LanguageClient",
       "state" : {
-        "revision" : "f0198ee0a102d266078f7d9c28f086f2989f988a",
-        "version" : "0.3.1"
+        "revision" : "92beeecd0bb783da52227839ba6c55e43fc866ec",
+        "version" : "0.5.1"
       }
     },
     {
@@ -68,17 +68,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ChimeHQ/LanguageServerProtocol",
       "state" : {
-        "revision" : "6e97f943dc024307c5524a80bd33cdbd1cc621de",
-        "version" : "0.8.0"
-      }
-    },
-    {
-      "identity" : "operationplus",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ChimeHQ/OperationPlus",
-      "state" : {
-        "revision" : "1340f95dce3e93d742497d88db18f8676f4badf4",
-        "version" : "1.6.0"
+        "revision" : "cae01173f45b0518ae5533b083edd153633af984",
+        "version" : "0.9.2"
       }
     },
     {
@@ -104,8 +95,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sparkle-project/Sparkle",
       "state" : {
-        "revision" : "631846cc829f0f0cae327df9bafe5a32b7ddadce",
-        "version" : "2.4.0"
+        "revision" : "87e4fcbac39912f9cdb9a9acf205cad60e1ca3bc",
+        "version" : "2.4.2"
       }
     },
     {
@@ -120,10 +111,10 @@
     {
       "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-argument-parser",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
       "state" : {
-        "revision" : "4ad606ba5d7673ea60679a61ff867cc1ff8c8e86",
-        "version" : "1.2.1"
+        "revision" : "fee6933f37fde9a5e12a1e4aeaa93fe60116ff2a",
+        "version" : "1.2.2"
       }
     },
     {
