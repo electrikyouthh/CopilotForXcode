@@ -19,6 +19,24 @@
 		35F830AE2A44E43B00C4DF17 /* SeparatorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8758E7129F04CF100D29C1C /* SeparatorCommand.swift */; };
 		35F830AF2A44E43B00C4DF17 /* SeparatorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8758E7129F04CF100D29C1C /* SeparatorCommand.swift */; };
 		35F830B02A44E43C00C4DF17 /* SeparatorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8758E7129F04CF100D29C1C /* SeparatorCommand.swift */; };
+		35F830B72A45013600C4DF17 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 35F830BB2A45013600C4DF17 /* README.md */; };
+		35F830B82A45013600C4DF17 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 35F830BB2A45013600C4DF17 /* README.md */; };
+		35F830B92A45013600C4DF17 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 35F830BB2A45013600C4DF17 /* README.md */; };
+		35F830BC2A45014200C4DF17 /* DEVELOPMENT.md in Resources */ = {isa = PBXBuildFile; fileRef = 35F830C02A45014200C4DF17 /* DEVELOPMENT.md */; };
+		35F830BD2A45014200C4DF17 /* DEVELOPMENT.md in Resources */ = {isa = PBXBuildFile; fileRef = 35F830C02A45014200C4DF17 /* DEVELOPMENT.md */; };
+		35F830BE2A45014200C4DF17 /* DEVELOPMENT.md in Resources */ = {isa = PBXBuildFile; fileRef = 35F830C02A45014200C4DF17 /* DEVELOPMENT.md */; };
+		35F830C32A45015800C4DF17 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 35F830C22A45015600C4DF17 /* LICENSE */; };
+		35F830C42A45015800C4DF17 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 35F830C22A45015600C4DF17 /* LICENSE */; };
+		35F830C52A45015900C4DF17 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 35F830C22A45015600C4DF17 /* LICENSE */; };
+		35F830C62A45015C00C4DF17 /* Version.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C81E867D296FE4420026E908 /* Version.xcconfig */; };
+		35F830C72A45015C00C4DF17 /* Version.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C81E867D296FE4420026E908 /* Version.xcconfig */; };
+		35F830C82A45015D00C4DF17 /* Version.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C81E867D296FE4420026E908 /* Version.xcconfig */; };
+		35F830C92A45016900C4DF17 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C81458AD293A009600135263 /* Config.xcconfig */; };
+		35F830CA2A45016A00C4DF17 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C81458AD293A009600135263 /* Config.xcconfig */; };
+		35F830CB2A45016A00C4DF17 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C81458AD293A009600135263 /* Config.xcconfig */; };
+		35F830CC2A45017B00C4DF17 /* Config.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C81458AE293A009800135263 /* Config.debug.xcconfig */; };
+		35F830CD2A45017B00C4DF17 /* Config.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C81458AE293A009800135263 /* Config.debug.xcconfig */; };
+		35F830CE2A45017C00C4DF17 /* Config.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C81458AE293A009800135263 /* Config.debug.xcconfig */; };
 		35FBC4B52A3EB88600C97791 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C814588E2939EFDC00135263 /* Cocoa.framework */; };
 		35FBC4B62A3EB88600C97791 /* Cocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C814588E2939EFDC00135263 /* Cocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C8009BFF2941C551007AA7E8 /* ToggleRealtimeSuggestionsCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8009BFE2941C551007AA7E8 /* ToggleRealtimeSuggestionsCommand.swift */; };
@@ -187,6 +205,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35F830BA2A45013600C4DF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Base; path = Base.lproj/README.md; sourceTree = "<group>"; };
+		35F830BF2A45014200C4DF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Base; path = Base.lproj/DEVELOPMENT.md; sourceTree = "<group>"; };
+		35F830C12A45015600C4DF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Base.lproj/LICENSE; sourceTree = "<group>"; };
 		C8009BFE2941C551007AA7E8 /* ToggleRealtimeSuggestionsCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleRealtimeSuggestionsCommand.swift; sourceTree = "<group>"; };
 		C8009C022941C576007AA7E8 /* RealtimeSuggestionCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeSuggestionCommand.swift; sourceTree = "<group>"; };
 		C800DBB0294C624D00B04CAC /* PrefetchSuggestionsCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefetchSuggestionsCommand.swift; sourceTree = "<group>"; };
@@ -199,8 +220,8 @@
 		C81458952939EFDC00135263 /* GetSuggestionsCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSuggestionsCommand.swift; sourceTree = "<group>"; };
 		C81458972939EFDC00135263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C81458982939EFDC00135263 /* EditorExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EditorExtension.entitlements; sourceTree = "<group>"; };
-		C81458AD293A009600135263 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		C81458AE293A009800135263 /* Config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.debug.xcconfig; sourceTree = "<group>"; };
+		C81458AD293A009600135263 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; lineEnding = 0; path = Config.xcconfig; sourceTree = "<group>"; };
+		C81458AE293A009800135263 /* Config.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; lineEnding = 0; path = Config.debug.xcconfig; sourceTree = "<group>"; };
 		C8189B162938972F00C9DCDA /* Copilot for Xcode Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copilot for Xcode Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8189B192938972F00C9DCDA /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		C8189B1D2938973000C9DCDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,13 +229,11 @@
 		C8189B222938973000C9DCDA /* Copilot_for_Xcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Copilot_for_Xcode.entitlements; sourceTree = "<group>"; };
 		C8189B282938979000C9DCDA /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
 		C81D181E2A1B509B006C1B70 /* Tool */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Tool; sourceTree = "<group>"; };
-		C81E867D296FE4420026E908 /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Version.xcconfig; sourceTree = "<group>"; };
+		C81E867D296FE4420026E908 /* Version.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; lineEnding = 0; path = Version.xcconfig; sourceTree = "<group>"; };
 		C8216B70298036EC00AD38C7 /* Helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Helper; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8216B72298036EC00AD38C7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C8216B772980370100AD38C7 /* ReloadLaunchAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadLaunchAgent.swift; sourceTree = "<group>"; };
-		C82E38492A1F025F00D4EADF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C8520300293C4D9000460097 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		C8520308293D805800460097 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C861A6A229E5503F005C41A3 /* PromptToCodeCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PromptToCodeCommand.swift; sourceTree = "<group>"; };
 		C861E60E2994F6070056CB02 /* CopilotForXcodeExtensionService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopilotForXcodeExtensionService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C861E6102994F6070056CB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -228,7 +247,6 @@
 		C87B03A6293B261900C77EAE /* RejectSuggestionCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectSuggestionCommand.swift; sourceTree = "<group>"; };
 		C87B03A8293B262600C77EAE /* NextSuggestionCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextSuggestionCommand.swift; sourceTree = "<group>"; };
 		C87B03AA293B262E00C77EAE /* PreviousSuggestionCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousSuggestionCommand.swift; sourceTree = "<group>"; };
-		C887BC832965D96000931567 /* DEVELOPMENT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DEVELOPMENT.md; sourceTree = "<group>"; };
 		C8A3AE512A2883430046E809 /* Python.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Python.xcframework; sourceTree = "<group>"; };
 		C8A3AE582A2885A70046E809 /* InitializePython.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializePython.swift; sourceTree = "<group>"; };
 		C8A3AE5A2A288AF90046E809 /* site-packages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "site-packages"; sourceTree = "<group>"; };
@@ -310,9 +328,9 @@
 		C8189B0D2938972F00C9DCDA = {
 			isa = PBXGroup;
 			children = (
-				C887BC832965D96000931567 /* DEVELOPMENT.md */,
-				C8520308293D805800460097 /* README.md */,
-				C82E38492A1F025F00D4EADF /* LICENSE */,
+				35F830C02A45014200C4DF17 /* DEVELOPMENT.md */,
+				35F830BB2A45013600C4DF17 /* README.md */,
+				35F830C22A45015600C4DF17 /* LICENSE */,
 				C81E867D296FE4420026E908 /* Version.xcconfig */,
 				C81458AD293A009600135263 /* Config.xcconfig */,
 				C81458AE293A009800135263 /* Config.debug.xcconfig */,
@@ -545,6 +563,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F830B82A45013600C4DF17 /* README.md in Resources */,
+				35F830BD2A45014200C4DF17 /* DEVELOPMENT.md in Resources */,
+				35F830CC2A45017B00C4DF17 /* Config.debug.xcconfig in Resources */,
+				35F830C62A45015C00C4DF17 /* Version.xcconfig in Resources */,
+				35F830C42A45015800C4DF17 /* LICENSE in Resources */,
+				35F830C92A45016900C4DF17 /* Config.xcconfig in Resources */,
 				3573271C2A3FCCCC0019CC12 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,7 +577,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F830C72A45015C00C4DF17 /* Version.xcconfig in Resources */,
+				35F830C32A45015800C4DF17 /* LICENSE in Resources */,
+				35F830CD2A45017B00C4DF17 /* Config.debug.xcconfig in Resources */,
+				35F830BC2A45014200C4DF17 /* DEVELOPMENT.md in Resources */,
 				C8189B212938973000C9DCDA /* Preview Assets.xcassets in Resources */,
+				35F830CA2A45016A00C4DF17 /* Config.xcconfig in Resources */,
+				35F830B72A45013600C4DF17 /* README.md in Resources */,
 				C8189B1E2938973000C9DCDA /* Assets.xcassets in Resources */,
 				3573271D2A3FCCCD0019CC12 /* Info.plist in Resources */,
 			);
@@ -563,7 +593,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F830C82A45015D00C4DF17 /* Version.xcconfig in Resources */,
+				35F830C52A45015900C4DF17 /* LICENSE in Resources */,
+				35F830CE2A45017C00C4DF17 /* Config.debug.xcconfig in Resources */,
+				35F830BE2A45014200C4DF17 /* DEVELOPMENT.md in Resources */,
 				C861E6152994F6080056CB02 /* Assets.xcassets in Resources */,
+				35F830CB2A45016A00C4DF17 /* Config.xcconfig in Resources */,
+				35F830B92A45013600C4DF17 /* README.md in Resources */,
 				C81291D72994FE6900196E12 /* Main.storyboard in Resources */,
 				3573271E2A3FCCCD0019CC12 /* Info.plist in Resources */,
 			);
@@ -724,6 +760,33 @@
 			targetProxy = C8216B7E2980377E00AD38C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35F830BB2A45013600C4DF17 /* README.md */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35F830BA2A45013600C4DF17 /* Base */,
+			);
+			name = README.md;
+			sourceTree = "<group>";
+		};
+		35F830C02A45014200C4DF17 /* DEVELOPMENT.md */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35F830BF2A45014200C4DF17 /* Base */,
+			);
+			name = DEVELOPMENT.md;
+			sourceTree = "<group>";
+		};
+		35F830C22A45015600C4DF17 /* LICENSE */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35F830C12A45015600C4DF17 /* Base */,
+			);
+			name = LICENSE;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C814589D2939EFDC00135263 /* Debug */ = {
