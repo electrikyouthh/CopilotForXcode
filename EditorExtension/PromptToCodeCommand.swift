@@ -11,9 +11,11 @@ class PromptToCodeCommand: NSObject, XCSourceEditorCommand, CommandType {
         completionHandler: @escaping (Error?) -> Void
     ) {
         completionHandler(nil)
-        Task {
-            let service = try getService()
-            _ = try await service.promptToCode(editorContent: .init(invocation))
-        }
+        if #available(macOSApplicationExtension 12.0, *) {
+            Task {
+                let service = try getService()
+                _ = try await service.promptToCode(editorContent: .init(invocation))
+            }
+        } else {
     }
 }

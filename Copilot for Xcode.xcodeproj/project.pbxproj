@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3573271C2A3FCCCC0019CC12 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C81458972939EFDC00135263 /* Info.plist */; };
+		3573271D2A3FCCCD0019CC12 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C81458972939EFDC00135263 /* Info.plist */; };
+		3573271E2A3FCCCD0019CC12 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C81458972939EFDC00135263 /* Info.plist */; };
+		3573271F2A3FCCF10019CC12 /* PromptToCodeCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861A6A229E5503F005C41A3 /* PromptToCodeCommand.swift */; };
+		357327202A3FCCF20019CC12 /* PromptToCodeCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861A6A229E5503F005C41A3 /* PromptToCodeCommand.swift */; };
+		357327212A3FCCF30019CC12 /* PromptToCodeCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861A6A229E5503F005C41A3 /* PromptToCodeCommand.swift */; };
+		35F830AB2A44E42C00C4DF17 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81458932939EFDC00135263 /* SourceEditorExtension.swift */; };
+		35F830AC2A44E42D00C4DF17 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81458932939EFDC00135263 /* SourceEditorExtension.swift */; };
+		35F830AD2A44E42D00C4DF17 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81458932939EFDC00135263 /* SourceEditorExtension.swift */; };
+		35F830AE2A44E43B00C4DF17 /* SeparatorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8758E7129F04CF100D29C1C /* SeparatorCommand.swift */; };
+		35F830AF2A44E43B00C4DF17 /* SeparatorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8758E7129F04CF100D29C1C /* SeparatorCommand.swift */; };
+		35F830B02A44E43C00C4DF17 /* SeparatorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8758E7129F04CF100D29C1C /* SeparatorCommand.swift */; };
 		35FBC4B52A3EB88600C97791 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C814588E2939EFDC00135263 /* Cocoa.framework */; };
 		35FBC4B62A3EB88600C97791 /* Cocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C814588E2939EFDC00135263 /* Cocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C8009BFF2941C551007AA7E8 /* ToggleRealtimeSuggestionsCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8009BFE2941C551007AA7E8 /* ToggleRealtimeSuggestionsCommand.swift */; };
@@ -45,6 +57,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		35F8309D2A44E3C600C4DF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8189B0E2938972F00C9DCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C814588B2939EFDC00135263;
+			remoteInfo = EditorExtension;
+		};
+		35F8309F2A44E3D100C4DF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8189B0E2938972F00C9DCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C861E60D2994F6070056CB02;
+			remoteInfo = ExtensionService;
+		};
+		35F830A12A44E3D900C4DF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8189B0E2938972F00C9DCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8189B152938972F00C9DCDA;
+			remoteInfo = "Copilot for Xcode";
+		};
+		35F830A32A44E3E000C4DF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8189B0E2938972F00C9DCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C814588B2939EFDC00135263;
+			remoteInfo = EditorExtension;
+		};
+		35F830A52A44E3E900C4DF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8189B0E2938972F00C9DCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8189B152938972F00C9DCDA;
+			remoteInfo = "Copilot for Xcode";
+		};
+		35F830A72A44E3EF00C4DF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8189B0E2938972F00C9DCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C861E60D2994F6070056CB02;
+			remoteInfo = ExtensionService;
+		};
+		35F830A92A44E3F600C4DF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8189B0E2938972F00C9DCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8216B6F298036EC00AD38C7;
+			remoteInfo = Helper;
+		};
 		C81291AF2994F92700196E12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8189B0E2938972F00C9DCDA /* Project object */;
@@ -134,7 +195,7 @@
 		C814588C2939EFDC00135263 /* Copilot.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Copilot.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C814588E2939EFDC00135263 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C81458902939EFDC00135263 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
-		C81458932939EFDC00135263 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		C81458932939EFDC00135263 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
 		C81458952939EFDC00135263 /* GetSuggestionsCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSuggestionsCommand.swift; sourceTree = "<group>"; };
 		C81458972939EFDC00135263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C81458982939EFDC00135263 /* EditorExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EditorExtension.entitlements; sourceTree = "<group>"; };
@@ -154,14 +215,14 @@
 		C82E38492A1F025F00D4EADF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C8520300293C4D9000460097 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		C8520308293D805800460097 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C861A6A229E5503F005C41A3 /* PromptToCodeCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptToCodeCommand.swift; sourceTree = "<group>"; };
+		C861A6A229E5503F005C41A3 /* PromptToCodeCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PromptToCodeCommand.swift; sourceTree = "<group>"; };
 		C861E60E2994F6070056CB02 /* CopilotForXcodeExtensionService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopilotForXcodeExtensionService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C861E6102994F6070056CB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C861E6142994F6080056CB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C861E6192994F6080056CB02 /* ExtensionService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExtensionService.entitlements; sourceTree = "<group>"; };
 		C861E61F2994F6390056CB02 /* ServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDelegate.swift; sourceTree = "<group>"; };
 		C8758E6F29F04BFF00D29C1C /* CustomCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCommand.swift; sourceTree = "<group>"; };
-		C8758E7129F04CF100D29C1C /* SeparatorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorCommand.swift; sourceTree = "<group>"; };
+		C8758E7129F04CF100D29C1C /* SeparatorCommand.swift */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SeparatorCommand.swift; sourceTree = "<group>"; };
 		C87B03A3293B24AB00C77EAE /* Copilot-for-Xcode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Copilot-for-Xcode-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C87B03A4293B261200C77EAE /* AcceptSuggestionCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptSuggestionCommand.swift; sourceTree = "<group>"; };
 		C87B03A6293B261900C77EAE /* RejectSuggestionCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectSuggestionCommand.swift; sourceTree = "<group>"; };
@@ -347,6 +408,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				35F830AA2A44E3F600C4DF17 /* PBXTargetDependency */,
+				35F830A82A44E3EF00C4DF17 /* PBXTargetDependency */,
+				35F830A62A44E3E900C4DF17 /* PBXTargetDependency */,
 			);
 			name = EditorExtension;
 			packageProductDependencies = (
@@ -393,6 +457,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				35F830A42A44E3E000C4DF17 /* PBXTargetDependency */,
+				35F830A22A44E3D900C4DF17 /* PBXTargetDependency */,
+				35F830A02A44E3D100C4DF17 /* PBXTargetDependency */,
 			);
 			name = Helper;
 			packageProductDependencies = (
@@ -415,6 +482,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				35F8309E2A44E3C600C4DF17 /* PBXTargetDependency */,
 			);
 			name = ExtensionService;
 			packageProductDependencies = (
@@ -477,6 +545,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3573271C2A3FCCCC0019CC12 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +555,7 @@
 			files = (
 				C8189B212938973000C9DCDA /* Preview Assets.xcassets in Resources */,
 				C8189B1E2938973000C9DCDA /* Assets.xcassets in Resources */,
+				3573271D2A3FCCCD0019CC12 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +565,7 @@
 			files = (
 				C861E6152994F6080056CB02 /* Assets.xcassets in Resources */,
 				C81291D72994FE6900196E12 /* Main.storyboard in Resources */,
+				3573271E2A3FCCCD0019CC12 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +639,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8189B1A2938972F00C9DCDA /* App.swift in Sources */,
+				35F830AE2A44E43B00C4DF17 /* SeparatorCommand.swift in Sources */,
+				35F830AD2A44E42D00C4DF17 /* SourceEditorExtension.swift in Sources */,
+				357327212A3FCCF30019CC12 /* PromptToCodeCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +651,9 @@
 			files = (
 				C8216B73298036EC00AD38C7 /* main.swift in Sources */,
 				C8216B782980370100AD38C7 /* ReloadLaunchAgent.swift in Sources */,
+				3573271F2A3FCCF10019CC12 /* PromptToCodeCommand.swift in Sources */,
+				35F830AF2A44E43B00C4DF17 /* SeparatorCommand.swift in Sources */,
+				35F830AB2A44E42C00C4DF17 /* SourceEditorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,13 +663,51 @@
 			files = (
 				C8A3AE592A2885A70046E809 /* InitializePython.swift in Sources */,
 				C861E6202994F63A0056CB02 /* ServiceDelegate.swift in Sources */,
+				35F830AC2A44E42D00C4DF17 /* SourceEditorExtension.swift in Sources */,
+				35F830B02A44E43C00C4DF17 /* SeparatorCommand.swift in Sources */,
 				C861E6112994F6070056CB02 /* AppDelegate.swift in Sources */,
+				357327202A3FCCF20019CC12 /* PromptToCodeCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		35F8309E2A44E3C600C4DF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C814588B2939EFDC00135263 /* EditorExtension */;
+			targetProxy = 35F8309D2A44E3C600C4DF17 /* PBXContainerItemProxy */;
+		};
+		35F830A02A44E3D100C4DF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C861E60D2994F6070056CB02 /* ExtensionService */;
+			targetProxy = 35F8309F2A44E3D100C4DF17 /* PBXContainerItemProxy */;
+		};
+		35F830A22A44E3D900C4DF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8189B152938972F00C9DCDA /* Copilot for Xcode */;
+			targetProxy = 35F830A12A44E3D900C4DF17 /* PBXContainerItemProxy */;
+		};
+		35F830A42A44E3E000C4DF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C814588B2939EFDC00135263 /* EditorExtension */;
+			targetProxy = 35F830A32A44E3E000C4DF17 /* PBXContainerItemProxy */;
+		};
+		35F830A62A44E3E900C4DF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8189B152938972F00C9DCDA /* Copilot for Xcode */;
+			targetProxy = 35F830A52A44E3E900C4DF17 /* PBXContainerItemProxy */;
+		};
+		35F830A82A44E3EF00C4DF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C861E60D2994F6070056CB02 /* ExtensionService */;
+			targetProxy = 35F830A72A44E3EF00C4DF17 /* PBXContainerItemProxy */;
+		};
+		35F830AA2A44E3F600C4DF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8216B6F298036EC00AD38C7 /* Helper */;
+			targetProxy = 35F830A92A44E3F600C4DF17 /* PBXContainerItemProxy */;
+		};
 		C81291B02994F92700196E12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C861E60D2994F6070056CB02 /* ExtensionService */;
@@ -614,6 +729,7 @@
 		C814589D2939EFDC00135263 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_ENTITLEMENTS = EditorExtension/EditorExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -641,7 +757,9 @@
 		};
 		C814589E2939EFDC00135263 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81458AD293A009600135263 /* Config.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_ENTITLEMENTS = EditorExtension/EditorExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -790,6 +908,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Copilot for Xcode/Copilot_for_Xcode.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -801,6 +920,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Copilot-for-Xcode-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = copilotforxcode;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -819,10 +939,12 @@
 		};
 		C8189B272938973000C9DCDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81E867D296FE4420026E908 /* Version.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Copilot for Xcode/Copilot_for_Xcode.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -834,6 +956,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Copilot-for-Xcode-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = copilotforxcode;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -865,6 +988,7 @@
 		};
 		C8216B76298036EC00AD38C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81E867D296FE4420026E908 /* Version.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
@@ -912,6 +1036,7 @@
 		};
 		C861E61C2994F6080056CB02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81E867D296FE4420026E908 /* Version.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
